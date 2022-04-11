@@ -1,0 +1,41 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+form{
+  padding: 15px 0;
+}
+input{
+  outline: none;
+  border: 1px solid black;    
+  display: block;
+  margin: 0  auto;
+  color: black;
+  
+}
+.mainConteiner {
+  margin: 0 auto;
+  width: max-content;
+  background-color: rgb(103 110 119);
+  width: max-content;
+  color: white;
+}
+
+.myTable {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+tr, td, th {
+  border: 1px solid black;
+}
+
+td, th {
+  padding: 15px;
+}
