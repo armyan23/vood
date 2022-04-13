@@ -9,7 +9,8 @@ export const Inputs = () => {
 
     
     function textChange() {
-        setText(value)
+        setText(document.getElementById('input').value)
+        
         document.getElementById('input').value = ''
     }
 
