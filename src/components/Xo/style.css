@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: max-content;
+    margin: 10% auto;
+}
+
+.container {
+    background-color: #6DE3F8;
+    width: max-content;
+}
+
+.container div {
+    display: flex;
+}
+
+.container span {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    aspect-ratio: 1;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid;
+    cursor: pointer;
+    user-select: none;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    width: max-content;
+    padding: 10px 50px;
+}
