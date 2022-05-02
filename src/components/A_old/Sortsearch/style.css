@@ -21,7 +21,7 @@ input{
   width: max-content;
   background-color: rgb(103 110 119);
   width: max-content;
-  color: white;
+  /* color: white; */
 }
 
 .myTable {

@@ -1,15 +1,14 @@
-
+// import { TableMy } from './components/A_old/Sortsearch/Table';
 import './App.css';
-import FetchTraining from './components/FetchPhoto/FetchTraining';
+import Index from './components/InputWrang/Index';
 
 
 function App() {
-      
   return (
     <div>
-      <FetchTraining/>
+      <Index/>
+      {/* <TableMy/> */}
     </div>
-       
   );
 }
 
